@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body{
+                background-image: url(Ragis.jpg);
+                background-position: center;
+                background-size: cover;
+            }
+    </style>
+       
+    <title>Ragistration Form</title>
+    
+    </head>
+    
+    <body>
+        <h1><marquee>EVENT RAGISTRATION</marquee></h1><br>  <br>
+        
+        <h2>Register now</h2>
+
+        <div id="reg-form"></div>
+        <form action="" method="">
+            
+            <label for="first-name">First Name</label>
+            <input type="text" name = "frist-name" placeholder="First Name" required>
+
+            <label for="Last-name">Last Name</label>
+            <input type="text" name = "Last-name" placeholder="Last Name" required><br> <br>
+        </div>
+        <div>
+
+            <label for="gender">Male</label>
+            <input type="radio" name="gender-choice" value="choice-1">
+
+            <label for="gender">Female</label>
+            <input type="radio" name="gender-choice" value="choice-2">
+            <br> <br>
+        </div>
+        <div>
+            <p>chose the event</p>
+            <input type="radio" id="cricket"> cricket<br> <br>
+            <input type="radio" id="football"> Footyball<br> <br>
+            <input type="radio" id="kabddi"> kabddi<br> <br>
+            <input type="radio" id="hocy"> hocy<br> <br>
+            <input type="radio" id="solo song"> solo song<br> <br>
+            <input type="radio" id="standup comedy"> standup comedy<br> <br>
+        </div>
+        <div>
+            <label for="email">Email-Address</label>
+            <input type="email" name="email" placeholder="xyz@gmail.com" required>
+
+            <label for="password">Password</label>
+            <input type="password" name="password" value=""required><br> <br>
+        </div>
+           <div>
+               <label for="birthday">Date of birth</label>
+               <input type="date" name="birthday" id="birthday" required><br> <br>
+              
+           </div>
+           <div>
+               <label for="agree">Agree are required all condition</label>
+               <input type="checkbox" name="agree" id="agree"><br> <br>
+
+               <button type="reset">Reset</button>
+           </div>
+        </form>
+               <form action="final.html">
+         <input type="submit" value="Submit">
+      </form>
+      
+    </body>
+</html>
